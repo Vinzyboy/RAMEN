@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <title>Michi Ramen</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header bg-fbg">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="header__logo">
+            <img src="../img/michiRamenLogo.png" alt="" />
+          </div>
+          <ul class="header__nav">
+            <li class="text-yellow"><a href=""></a>MENU</li>
+            <li><a href=""></a>LOCATIONS</li>
+            <li><a href=""></a>ABOUT</li>
+            <li><a href=""></a>BLOG</li>
+          </ul>
+          <a href="" class="btn primary">ORDER ONLINE</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- TIME -->
+    <section class="time bg-red">
+      <div class="time__title text-center py-3">
+        <p class="font-bold lg:text-[1.2rem] lg:tracking-wide text-[1rem]">
+          MICHI RAMEN • TUESDAY - SUNDAY 11AM-MIDNIGHT • HAPPY HOUR 9PM-11PM
+        </p>
+      </div>
+    </section>
+
+    <!-- HOW TO ORDER -->
+    <section class="order bg-order">
+      <div class="container">
+        <div class="order__wrapper py-10">
+          <div class="order__title items-center text-center py-10">
+            <h2 class="text-red font-bold text-4xl">HOW TO ORDER AT MICHI</h2>
+          </div>
+          <div class="order__slider flex justify-center gap-10">
+            <div class="slider__item flex items-center gap-10">
+              <div class="card">
+                <img src="../img/ramen-step-1.png" alt="" />
+                <p>PICK YOUR RAMEN</p>
+              </div>
+
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="slider__item flex items-center gap-10 mt-5">
+              <div class="card gap-10 mt-7">
+                <img src="../img/ramen-step-2.png" alt="" />
+                <p>PICK YOUR BROTH</p>
+              </div>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="slider__item flex items-center">
+              <div class="card">
+                <img src="../img/ramen-step-3.png" alt="" />
+                <p>ADD TOPPINGS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RAMEN MENU -->
+    <section class="menu bg-menu bg-repeat">
+      <div class="container">
+        <div class="menu__wrapper flex flex-col items-center py-20">
+          <div class="menu__title text-center py-10">
+            <h2 class="font-bold text-[60px]">RAMEN MENU</h2>
+          </div>
+          <div class="menu__cards flex flex-col gap-20 py-10">
+            <div class="menu__card">
+              <div class="menuItem grid place-items-center">
+                <div>
+                  <div class="itemDesc flex items-start gap-8">
+                    <div>
+                      <h3
+                        class="font-secondary text-grayy text-[50px] font-bold"
+                      >
+                        Michi
+                      </h3>
+                      <p class="text-2xl font-bold text-red mb-2">$8.50</p>
+                      <ul class="text-white font-bold mb-5">
+                        <li>chashu slices</li>
+                        <li>roasted nori</li>
+                        <li>mayu oil</li>
+                        <li>woodear mushrooms</li>
+                        <li>green onions</li>
+                      </ul>
+                    </div>
+                    <img src="../img/Michi.png" alt="" />
+                  </div>
+                  <p
+                    class="uppercase text-[25px] font-tertiary font-bold text-fbg"
+                  >
+                    shoyu tonkotsu
+                  </p>
+                </div>
+              </div>
+              <div class="menuItem grid place-items-center">
+                <div>
+                  <div class="itemDesc flex items-start gap-8">
+                    <div>
+                      <h3 class="font-secondary text-fbg text-[50px] font-bold">
+                        SAPPORO
+                      </h3>
+                      <p class="text-2xl font-bold text-red mb-2">$9.50</p>
+                      <ul class="text-white font-bold mb-5">
+                        <li>chashu slices</li>
+                        <li>bean sprouts</li>
+                        <li>corn/butter</li>
+                        <li>woodear mushrooms</li>
+                        <li>green onions</li>
+                      </ul>
+                    </div>
+                    <img src="../img/Saporo.png" alt="" />
+                  </div>
+                  <p
+                    class="uppercase text-[25px] font-tertiary font-bold text-fbg"
+                  >
+                    miso tonkotsu
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu__card">
+              <div class="menuItem grid place-items-center">
+                <div>
+                  <div class="itemDesc flex items-start gap-8">
+                    <div>
+                      <h3
+                        class="font-secondary text-grayy text-[50px] font-bold"
+                      >
+                        VEGGIE
+                      </h3>
+                      <p class="text-2xl font-bold text-red mb-2">$7.50</p>
+                      <ul class="text-white font-bold mb-5">
+                        <li>chives</li>
+                        <li>sprouts and cabbage</li>
+                        <li>woodear mushrooms</li>
+                        <li>green onions</li>
+                      </ul>
+                    </div>
+                    <img src="../img/Vegie.png" alt="" />
+                  </div>
+                  <p
+                    class="uppercase text-[25px] font-tertiary font-bold text-fbg"
+                  >
+                    shoyu shiitake
+                  </p>
+                </div>
+              </div>
+              <div class="menuItem grid place-items-center">
+                <div>
+                  <div class="itemDesc flex items-start gap-8">
+                    <div>
+                      <h3 class="font-secondary text-fbg text-[50px] font-bold">
+                        MEAT LOVERS
+                      </h3>
+                      <p class="text-2xl font-bold text-red mb-2">$10.50</p>
+                      <ul class="text-white font-bold mb-5">
+                        <li>chashu slices</li>
+                        <li>mayu oil</li>
+                        <li>woodear mushrooms</li>
+                        <li>green onions</li>
+                      </ul>
+                    </div>
+                    <img src="../img/Meat Lover.png" alt="" />
+                  </div>
+                  <p
+                    class="uppercase text-[25px] font-tertiary font-bold text-fbg"
+                  >
+                    miso tonkotsu
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu__card">
+              <div class="menuItem grid place-items-center">
+                <div>
+                  <div class="itemDesc flex items-start gap-8">
+                    <div>
+                      <h3
+                        class="font-secondary text-grayy text-[50px] font-bold"
+                      >
+                        DIPPING
+                      </h3>
+                      <p class="text-2xl font-bold text-red mb-2">$11.50</p>
+                      <ul class="text-white font-bold mb-5">
+                        <li>chasu slices</li>
+                        <li>shredded nori</li>
+                        <li>woodear mushrooms</li>
+                        <li>green onions</li>
+                        <li>ground chasu</li>
+                        <li>fresh garlic</li>
+                        <li>fried onions</li>
+                        <li>mayu oil</li>
+                      </ul>
+                    </div>
+                    <img src="../img/dipping.png" alt="" />
+                  </div>
+                  <p
+                    class="uppercase text-[25px] font-tertiary font-bold text-fbg"
+                  >
+                    fish tonkotsu
+                  </p>
+                </div>
+              </div>
+              <div class="menuItem grid place-items-center">
+                <div>
+                  <div class="itemDesc flex items-start gap-8">
+                    <div>
+                      <h3 class="font-secondary text-fbg text-[50px] font-bold">
+                        TEXAS
+                      </h3>
+                      <p class="text-2xl font-bold text-red mb-2">$13.50</p>
+                      <ul class="text-white font-bold mb-5">
+                        <li>smoked BBQ pork ribs</li>
+                        <li>vinegar slaw</li>
+                        <li>red onions</li>
+                        <li>mayu oil</li>
+                        <li>texas toast</li>
+                        <li>jalapeno</li>
+                        <li>pickle spear</li>
+                        <li>spicy BBQ sause</li>
+                      </ul>
+                    </div>
+                    <img src="../img/texas.png" alt="" />
+                  </div>
+                  <p
+                    class="uppercase text-[25px] font-tertiary font-bold text-fbg"
+                  >
+                    miso tonkotsu
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="menu__card">
+              <div class="menuItem grid place-items-center">
+                <div>
+                  <div class="itemDesc flex items-start gap-8">
+                    <div>
+                      <h3
+                        class="font-secondary text-grayy text-[50px] font-bold"
+                      >
+                        JUNGLE
+                      </h3>
+                      <p class="text-2xl font-bold text-red mb-2">$9.50</p>
+                      <ul class="text-white font-bold mb-5">
+                        <li>contains shellfish</li>
+                        <li>chasu slices</li>
+                        <li>bean sprouts</li>
+                        <li>thai chiles</li>
+                        <li>woodear mushrooms</li>
+                        <li>green onions</li>
+                        <li>toasted lemongrass</li>
+                        <li>lime wedges</li>
+                        <li>cilantro</li>
+                      </ul>
+                    </div>
+                    <img src="../img/jungle.png" alt="" />
+                  </div>
+                  <p
+                    class="uppercase text-[25px] font-tertiary font-bold text-fbg"
+                  >
+                    lemongrass tonkotsu
+                  </p>
+                </div>
+              </div>
+              <div class="menuItem grid place-items-center">
+                <div>
+                  <div class="itemDesc flex items-start gap-8">
+                    <div>
+                      <h3 class="font-secondary text-fbg text-[50px] font-bold">
+                        SPECIAL
+                      </h3>
+                      <p class="text-2xl font-bold text-red mb-2">$13.50</p>
+                      <ul class="text-white font-bold mb-5">
+                        <li>smoked BBQ pork ribs</li>
+                        <li>vinegar slaw</li>
+                        <li>red onions</li>
+                        <li>mayu oil</li>
+                        <li>texas toast</li>
+                        <li>jalapeno</li>
+                        <li>pickle spear</li>
+                        <li>spicy BBQ sause</li>
+                      </ul>
+                    </div>
+                    <img src="../img/special.png" alt="" />
+                  </div>
+                  <p
+                    class="uppercase text-[25px] font-tertiary font-bold text-fbg"
+                  >
+                    tomato tonkotsu
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="" class="btn grayy">VIEW OUR FULL MENU</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- RAMEN TOPPINGS -->
+    <div class="toppings__image">
+      <img class="w-full" src="../img/vegie-bg.png" alt="" />
+    </div>
+    <section class="toppings bg-order">
+      <div class="container">
+        <div class="toppings__wrapper py-20">
+          <div class="toppings__title flex flex-col text-center py-10">
+            <h2 class="text-red text-[60px] font-bold">RAMEN TOPPINGS</h2>
+            <h3 class="text-yellow font-bold text-2xl">
+              BROTH & NOODLES <span class="text-fbg">$6.50</span>
+            </h3>
+            <p class="text-gray-500 font-bold">
+              Great for kids or to build your own
+            </p>
+          </div>
+          <div class="ramen flex gap-[10rem] justify-center px-20">
+            <div
+              class="toppings__prices text-fbg font-bold flex flex-col gap-10"
+            >
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">AJITAMA</h3>
+                  <p>Marinated soft-boiled egg</p>
+                </div>
+                <h3 class="text-2xl">$1.00</h3>
+              </div>
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">CASHU PORK</h3>
+                  <p>Slices ground</p>
+                </div>
+                <h3 class="text-2xl">$1.50/$2.50</h3>
+              </div>
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">SHIITAKE</h3>
+                  <p>Braised mushroom caps</p>
+                </div>
+                <h3 class="text-2xl">$2.00</h3>
+              </div>
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">VEGGIES</h3>
+                  <p>Chives, Sprouts and Cabbage</p>
+                </div>
+                <h3 class="text-2xl">$1.00</h3>
+              </div>
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">BENISHOGA</h3>
+                  <p>Pickled ginger</p>
+                </div>
+                <h3 class="text-2xl">$0.50</h3>
+              </div>
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">TAKANA</h3>
+                  <p>Pickled mustard green</p>
+                </div>
+                <h3 class="text-2xl">$0.50</h3>
+              </div>
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">MENMA</h3>
+                  <p>Marinated bamboo</p>
+                </div>
+                <h3 class="text-2xl">$0.50</h3>
+              </div>
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">SPICY</h3>
+                  <p>Homemade chili oil</p>
+                </div>
+                <h3 class="text-2xl">$0.50</h3>
+              </div>
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">CARROTS</h3>
+                </div>
+                <h3 class="text-2xl">$0.50</h3>
+              </div>
+            </div>
+            <div
+              class="toppings__prices text-fbg font-bold flex flex-col gap-10"
+            >
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">MAYU</h3>
+                  <p>Blackened Garlic Oil</p>
+                </div>
+                <h3 class="text-2xl">$0.50</h3>
+              </div>
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">KAMKOBO</h3>
+                  <p>Steamed fishcakes</p>
+                </div>
+                <h3 class="text-2xl">$0.50</h3>
+              </div>
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">NORI</h3>
+                  <p>Roasted Seaweed</p>
+                </div>
+                <h3 class="text-2xl">$0.50</h3>
+              </div>
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">KIKUGARE</h3>
+                  <p>Woodear Mushrooms</p>
+                </div>
+                <h3 class="text-2xl">$0.50</h3>
+              </div>
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">BEAN SPROUTS</h3>
+                </div>
+                <h3 class="text-2xl">$0.50</h3>
+              </div>
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">CORN</h3>
+                </div>
+                <h3 class="text-2xl">$0.50</h3>
+              </div>
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">FRESH GARLIC</h3>
+                </div>
+                <h3 class="text-2xl">$0.50</h3>
+              </div>
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">BROCCOLI</h3>
+                </div>
+                <h3 class="text-2xl">$0.50</h3>
+              </div>
+              <div class="toppings__item flex justify-between gap-20">
+                <div class="toppings__name">
+                  <h3 class="text-[1.5rem]">THAI CHILES</h3>
+                </div>
+                <h3 class="text-2xl">$0.50</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="toppings__image">
+      <img class="w-full" src="../img/MOCHI.png" alt="" />
+    </div>
+    <section class="desserts bg-order">
+      <div class="container">
+        <div class="desserts__wrapper py-20">
+          <div class="desserts__title flex flex-col text-center py-10">
+            <h2 class="text-red text-[60px] font-bold">SIDES & DESSERTS</h2>
+          </div>
+
+          <div class="ramen flex gap-[2rem] justify-center px-[5rem]">
+            <div
+              class="desserts__prices text-fbg font-bold flex flex-col gap-10"
+            >
+              <div class="desserts__item flex flex-col px-20">
+                <div class="desserts__name flex justify-between">
+                  <h3 class="text-[1.5rem]">EDAMAME</h3>
+                  <h3 class="text-2xl">$3.50</h3>
+                </div>
+                <p>boiled and salted soybean pods</p>
+              </div>
+              <div class="desserts__item flex flex-col px-20">
+                <div class="desserts__name flex justify-between">
+                  <h3 class="text-[1.5rem]">SEAWOOD SALAD</h3>
+                  <h3 class="text-2xl">$3.50</h3>
+                </div>
+                <p>
+                  mix of seaweed, woodear mushrooms, sesame oil and chili flakes
+                </p>
+              </div>
+              <div class="desserts__item flex flex-col px-20">
+                <div class="desserts__name flex justify-between">
+                  <h3 class="text-[1.5rem]">CALAMARI SALAD</h3>
+                  <h3 class="text-2xl">$3.50</h3>
+                </div>
+                <p>mix of squid, bamboo shoots, woodear mushrooms and ginger</p>
+              </div>
+              <div class="desserts__item flex flex-col px-20">
+                <div class="desserts__name flex justify-between">
+                  <h3 class="text-[1.5rem]">GYOZA</h3>
+                  <h3 class="text-2xl">$4.50</h3>
+                </div>
+                <p>
+                  five homemade pan-fried pork, chives and cabbage dumplings
+                </p>
+              </div>
+              <div class="desserts__item flex flex-col px-20">
+                <div class="desserts__name flex justify-between">
+                  <h3 class="text-[1.5rem]">BURNT ENDS</h3>
+                  <h3 class="text-2xl">$4.50</h3>
+                </div>
+                <p>our take on the BBQ delicacy' bite-size pieces of chashu</p>
+              </div>
+              <div class="desserts__item flex flex-col px-20">
+                <div class="desserts__name flex justify-between">
+                  <h3 class="text-[1.5rem]">TATSUTA AGE</h3>
+                  <h3 class="text-2xl">$4.50</h3>
+                </div>
+                <p>marinated boneless fried chicken</p>
+              </div>
+            </div>
+            <div
+              class="desserts__prices text-fbg font-bold flex flex-col gap-10"
+            >
+              <div class="desserts__item flex flex-col px-20">
+                <div class="desserts__name flex justify-between">
+                  <h3 class="text-[1.5rem]">TORITEN</h3>
+                  <h3 class="text-2xl">$4.50</h3>
+                </div>
+                <p>chicken tempura with dipping sauce</p>
+              </div>
+              <div class="desserts__item flex flex-col px-20">
+                <div class="desserts__name flex justify-between">
+                  <h3 class="text-[1.5rem]">ΜΕΝΤΑΙΚΟ</h3>
+                  <h3 class="text-2xl">$5.50</h3>
+                </div>
+                <p>spicy pollock roe with side of takana and steamed rice</p>
+              </div>
+              <div class="desserts__item flex flex-col px-20">
+                <div class="desserts__name flex justify-between">
+                  <h3 class="text-[1.5rem]">CHASHU DON</h3>
+                  <h3 class="text-2xl">$6.50</h3>
+                </div>
+                <p>
+                  burnt ends over steamed rice topped with green onions and
+                  bonito flakes
+                </p>
+              </div>
+              <div class="desserts__item flex flex-col px-20">
+                <div class="desserts__name flex justify-between">
+                  <h3 class="text-[1.5rem]">CURRY RICE</h3>
+                  <h3 class="text-2xl">$7.50</h3>
+                </div>
+                <p>tonkotsu curry with chashu, peas, carrots and bed of rice</p>
+              </div>
+              <div class="desserts__item flex flex-col px-20">
+                <div class="desserts__name flex justify-between">
+                  <h3 class="text-[1.5rem]">VEGGIE CURRY RICE</h3>
+                  <h3 class="text-2xl">$7.50</h3>
+                </div>
+                <p>veggie curry with broccoli, peas, carrots and bed of rice</p>
+              </div>
+              <div class="desserts__item flex flex-col px-20">
+                <div class="desserts__name flex justify-between">
+                  <h3 class="text-[1.5rem]">MOCHI ICE CREAM</h3>
+                  <h3 class="text-2xl">2 for $3</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="desserts__image">
+      <img class="w-full" src="../img/BEER.png" alt="" />
+    </div>
+
+    <section class="drinks pb-20">
+      <img src="./img/drinks.png" class="w-full" alt="" />
+      <div class="container">
+        <div class="mt-20 grid place-items-center">
+          <h2 class="text-center font-bold text-[60px] text-primary uppercase">
+            drinks
+          </h2>
+          <h2
+            class="text-center font-bold text-[40px] text-customGray uppercase mb-4"
+          >
+            join us for happy hour
+          </h2>
+          <p class="uppercase font-bold text-center text-[18px] mb-16">
+            3-6pm / 9-11pm • $1 off all beer | wednesday 5-11pm • $2 sake
+            caraffes
+          </p>
+        </div>
+        <div class="grid place-items-center mb-16">
+          <ul
+            class="drinksType uppercase flex items-center gap-20 [&>li]:text-[55px] font-bold font-economica [&>li]:cursor-pointer py-8"
+          >
+            <li id="drinkTypeItem-1" class="active">Beer</li>
+            <li id="drinkTypeItem-2">Sake</li>
+            <li id="drinkTypeItem-3">Beer</li>
+            <li id="drinkTypeItem-4">Tea</li>
+          </ul>
+        </div>
+        <div class="wrapper w-[1000px] mx-auto">
+          <div id="drinkTypeItem-1-content" class="drinkGroup hidden active">
+            <div>
+              <p class="uppercase text-center text-xl font-bold mb-4">Draft</p>
+              <div class="toppingsItem text-customGray">
+                <div class="flex justify-between">
+                  <div class="toppingsName">
+                    <p class="uppercase text-2xl font-bold">Ajitama</p>
+                    <p class="text-sm font-semibold">
+                      Marinated soft-boiled egg
+                    </p>
+                  </div>
+                  <div class="thePrice">
+                    <p class="text-2xl font-bold">$1.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="toppingsItem text-customGray">
+                <div class="flex justify-between">
+                  <div class="toppingsName">
+                    <p class="uppercase text-2xl font-bold">Ajitama</p>
+                    <p class="text-sm font-semibold">
+                      Marinated soft-boiled egg
+                    </p>
+                  </div>
+                  <div class="thePrice">
+                    <p class="text-2xl font-bold">$1.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p class="uppercase text-center text-xl font-bold mb-4">
+                japanese bottles
+              </p>
+              <div class="drinksItem text-customGray">
+                <div class="flex justify-between">
+                  <div class="toppingsName">
+                    <p class="uppercase text-2xl font-bold">Ajitama</p>
+                    <p class="text-sm font-semibold">
+                      Marinated soft-boiled egg
+                    </p>
+                  </div>
+                  <div class="thePrice">
+                    <p class="text-2xl font-bold">$1.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="drinksItem text-customGray">
+                <div class="flex justify-between">
+                  <div class="toppingsName">
+                    <p class="uppercase text-2xl font-bold">Ajitama</p>
+                    <p class="text-sm font-semibold">
+                      Marinated soft-boiled egg
+                    </p>
+                  </div>
+                  <div class="thePrice">
+                    <p class="text-2xl font-bold">$1.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="drinkTypeItem-2-content" class="drinkGroup hidden">
+            <div>
+              <p class="uppercase text-center text-xl font-bold mb-4">Draft</p>
+              <div class="toppingsItem text-customGray">
+                <div class="flex justify-between">
+                  <div class="toppingsName">
+                    <p class="uppercase text-2xl font-bold">Ajitama</p>
+                    <p class="text-sm font-semibold">
+                      Marinated soft-boiled egg
+                    </p>
+                  </div>
+                  <div class="thePrice">
+                    <p class="text-2xl font-bold">$1.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="toppingsItem text-customGray">
+                <div class="flex justify-between">
+                  <div class="toppingsName">
+                    <p class="uppercase text-2xl font-bold">Ajitama</p>
+                    <p class="text-sm font-semibold">
+                      Marinated soft-boiled egg
+                    </p>
+                  </div>
+                  <div class="thePrice">
+                    <p class="text-2xl font-bold">$1.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <p class="uppercase text-center text-xl font-bold mb-4">
+                japanese bottles
+              </p>
+              <div class="drinksItem text-customGray">
+                <div class="flex justify-between">
+                  <div class="toppingsName">
+                    <p class="uppercase text-2xl font-bold">Ajitama</p>
+                    <p class="text-sm font-semibold">
+                      Marinated soft-boiled egg
+                    </p>
+                  </div>
+                  <div class="thePrice">
+                    <p class="text-2xl font-bold">$1.00</p>
+                  </div>
+                </div>
+              </div>
+              <div class="drinksItem text-customGray">
+                <div class="flex justify-between">
+                  <div class="toppingsName">
+                    <p class="uppercase text-2xl font-bold">Ajitama</p>
+                    <p class="text-sm font-semibold">
+                      Marinated soft-boiled egg
+                    </p>
+                  </div>
+                  <div class="thePrice">
+                    <p class="text-2xl font-bold">$1.00</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer bg-fbg">
+      <div class="container">
+        <div class="footer__wrapper flex justify-between py-20">
+          <ul class="footer__social text-yellow flex gap-10 text-2xl">
+            <li><i class="fa-brands fa-yelp"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+          </ul>
+          <div class="footer__text">
+            <p class="font-bold text-[1.2rem]">
+              (512) 368-1908 • 6519 N. Lamar, Austin TX 78752
+            </p>
+          </div>
+          <div class="footer__button">
+            <a href="" class="btn primary"> ORDER ONLINE</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/Menu.js"></script>
+  </body>
+</html>

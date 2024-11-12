@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Coming+Soon&family=Economica:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply overflow-x-hidden font-primary;
+  }
+  .container {
+    @apply max-w-[1600px] w-full px-4 mx-auto;
+  }
+}
+
+@layer components {
+  .drinksType li.active {
+    @apply text-red border-b-4 border-red;
+  }
+  .drinkGroup.active {
+    @apply grid grid-cols-2 gap-16;
+  }
+  /* HEADER */
+  .header__wrapper {
+    @apply flex items-center justify-between py-10;
+  }
+  .header__nav {
+    @apply flex gap-20 font-bold ml-[20rem] text-[1.2rem];
+  }
+  .header__content {
+    @apply flex flex-col items-center;
+  }
+  .header__content h1 {
+    @apply text-[clamp(20px,5vw,100px)] font-bold;
+  }
+  .header__content p {
+    @apply font-bold;
+  }
+  .header__img {
+    @apply mt-[5.5rem];
+  }
+
+  /* HOW TO ORDER */
+  .slider__item i {
+    @apply text-2xl mb-10 text-red;
+  }
+  .card {
+    @apply flex flex-col justify-center text-center gap-5;
+  }
+  .card img {
+    @apply w-[15rem];
+  }
+  .card p {
+    @apply text-fbg font-secondary text-2xl font-semibold;
+  }
+
+  /* RAMEN MENU */
+  .menu__card {
+    @apply grid grid-cols-2 items-center gap-[10rem];
+  }
+  .itemDesc li {
+    @apply text-[1.2rem];
+  }
+
+  /* JS */
+  .nav.active {
+    @apply border-b-8 border-yellow px-2 text-yellow;
+  }
+  .cards {
+    @apply flex text-center justify-center gap-[10rem] py-10;
+  }
+  .beverages__cards {
+    @apply hidden lg:hidden;
+  }
+  .beverages__cards.active {
+    @apply block lg:block;
+  }
+  .beverages__title {
+    @apply text-center font-bold text-[30px];
+  }
+  .beverages__items {
+    @apply flex flex-col gap-10 pt-5;
+  }
+  .item__name {
+    @apply flex justify-between gap-10;
+  }
+  .item {
+    @apply flex flex-col text-start;
+  }
+  .item__name h3,
+  h4 {
+    @apply font-bold text-[25px];
+  }
+
+  /* CTA */
+  .cta__image img {
+    @apply w-[40rem];
+  }
+
+  /* BUTTON */
+  .btn {
+    @apply py-2 px-4 bg-transparent border-transparent;
+  }
+  .btn.grayy {
+    @apply bg-fbg text-white py-2 px-10 font-bold;
+  }
+  .btn.primary {
+    @apply bg-yellow text-white px-5 py-2 rounded-sm font-bold text-[1.2rem];
+  }
+}
